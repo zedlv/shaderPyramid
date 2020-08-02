@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20834CB624D5807E0021FABE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20834CB524D5807E0021FABE /* AppDelegate.m */; };
+		20834CBC24D5807E0021FABE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20834CBB24D5807E0021FABE /* ViewController.m */; };
+		20834CBF24D5807E0021FABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20834CBD24D5807E0021FABE /* Main.storyboard */; };
+		20834CC124D580830021FABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20834CC024D580830021FABE /* Assets.xcassets */; };
+		20834CC424D580830021FABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20834CC224D580830021FABE /* LaunchScreen.storyboard */; };
+		20834CC724D580830021FABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20834CC624D580830021FABE /* main.m */; };
+		20834CD124D580830021FABE /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20834CD024D580830021FABE /* _________Tests.m */; };
+		20834CDC24D580840021FABE /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20834CDB24D580840021FABE /* _________UITests.m */; };
+		20834CF024D592A60021FABE /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 20834CEA24D592A60021FABE /* GLESMath.c */; };
+		20834CF124D592A60021FABE /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20834CED24D592A60021FABE /* GLESUtils.m */; };
+		20834CF424D592B80021FABE /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20834CF324D592B80021FABE /* MyView.m */; };
+		20834CF624D593580021FABE /* shaderV.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 20834CF524D593580021FABE /* shaderV.vsh */; };
+		20834CF824D5936A0021FABE /* shaderF.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 20834CF724D5936A0021FABE /* shaderF.fsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20834CCD24D580830021FABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20834CA924D5807E0021FABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20834CB024D5807E0021FABE;
+			remoteInfo = "金字塔可编程着色器";
+		};
+		20834CD824D580840021FABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20834CA924D5807E0021FABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20834CB024D5807E0021FABE;
+			remoteInfo = "金字塔可编程着色器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20834CB124D5807E0021FABE /* 金字塔可编程着色器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "金字塔可编程着色器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20834CB424D5807E0021FABE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20834CB524D5807E0021FABE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20834CBA24D5807E0021FABE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20834CBB24D5807E0021FABE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20834CBE24D5807E0021FABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20834CC024D580830021FABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20834CC324D580830021FABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20834CC524D580830021FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20834CC624D580830021FABE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20834CCC24D580830021FABE /* 金字塔可编程着色器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "金字塔可编程着色器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20834CD024D580830021FABE /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		20834CD224D580840021FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20834CD724D580840021FABE /* 金字塔可编程着色器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "金字塔可编程着色器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20834CDB24D580840021FABE /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		20834CDD24D580840021FABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20834CEA24D592A60021FABE /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		20834CEB24D592A60021FABE /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		20834CEC24D592A60021FABE /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		20834CED24D592A60021FABE /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		20834CEE24D592A60021FABE /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		20834CEF24D592A60021FABE /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		20834CF224D592B80021FABE /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		20834CF324D592B80021FABE /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		20834CF524D593580021FABE /* shaderV.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderV.vsh; sourceTree = "<group>"; };
+		20834CF724D5936A0021FABE /* shaderF.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderF.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20834CAE24D5807E0021FABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20834CC924D580830021FABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20834CD424D580840021FABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20834CA824D5807E0021FABE = {
+			isa = PBXGroup;
+			children = (
+				20834CB324D5807E0021FABE /* 金字塔可编程着色器 */,
+				20834CCF24D580830021FABE /* 金字塔可编程着色器Tests */,
+				20834CDA24D580840021FABE /* 金字塔可编程着色器UITests */,
+				20834CB224D5807E0021FABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20834CB224D5807E0021FABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20834CB124D5807E0021FABE /* 金字塔可编程着色器.app */,
+				20834CCC24D580830021FABE /* 金字塔可编程着色器Tests.xctest */,
+				20834CD724D580840021FABE /* 金字塔可编程着色器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20834CB324D5807E0021FABE /* 金字塔可编程着色器 */ = {
+			isa = PBXGroup;
+			children = (
+				20834CE924D592A60021FABE /* Utils */,
+				20834CB424D5807E0021FABE /* AppDelegate.h */,
+				20834CB524D5807E0021FABE /* AppDelegate.m */,
+				20834CBA24D5807E0021FABE /* ViewController.h */,
+				20834CBB24D5807E0021FABE /* ViewController.m */,
+				20834CF224D592B80021FABE /* MyView.h */,
+				20834CF324D592B80021FABE /* MyView.m */,
+				20834CF724D5936A0021FABE /* shaderF.fsh */,
+				20834CF524D593580021FABE /* shaderV.vsh */,
+				20834CBD24D5807E0021FABE /* Main.storyboard */,
+				20834CC024D580830021FABE /* Assets.xcassets */,
+				20834CC224D580830021FABE /* LaunchScreen.storyboard */,
+				20834CC524D580830021FABE /* Info.plist */,
+				20834CC624D580830021FABE /* main.m */,
+			);
+			path = "金字塔可编程着色器";
+			sourceTree = "<group>";
+		};
+		20834CCF24D580830021FABE /* 金字塔可编程着色器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20834CD024D580830021FABE /* _________Tests.m */,
+				20834CD224D580840021FABE /* Info.plist */,
+			);
+			path = "金字塔可编程着色器Tests";
+			sourceTree = "<group>";
+		};
+		20834CDA24D580840021FABE /* 金字塔可编程着色器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				20834CDB24D580840021FABE /* _________UITests.m */,
+				20834CDD24D580840021FABE /* Info.plist */,
+			);
+			path = "金字塔可编程着色器UITests";
+			sourceTree = "<group>";
+		};
+		20834CE924D592A60021FABE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				20834CEA24D592A60021FABE /* GLESMath.c */,
+				20834CEB24D592A60021FABE /* GLESMath.h */,
+				20834CEC24D592A60021FABE /* GLESUtils.h */,
+				20834CED24D592A60021FABE /* GLESUtils.m */,
+				20834CEE24D592A60021FABE /* Quaternion.h */,
+				20834CEF24D592A60021FABE /* Vector.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20834CB024D5807E0021FABE /* 金字塔可编程着色器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20834CE024D580840021FABE /* Build configuration list for PBXNativeTarget "金字塔可编程着色器" */;
+			buildPhases = (
+				20834CAD24D5807E0021FABE /* Sources */,
+				20834CAE24D5807E0021FABE /* Frameworks */,
+				20834CAF24D5807E0021FABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "金字塔可编程着色器";
+			productName = "金字塔可编程着色器";
+			productReference = 20834CB124D5807E0021FABE /* 金字塔可编程着色器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20834CCB24D580830021FABE /* 金字塔可编程着色器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20834CE324D580840021FABE /* Build configuration list for PBXNativeTarget "金字塔可编程着色器Tests" */;
+			buildPhases = (
+				20834CC824D580830021FABE /* Sources */,
+				20834CC924D580830021FABE /* Frameworks */,
+				20834CCA24D580830021FABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20834CCE24D580830021FABE /* PBXTargetDependency */,
+			);
+			name = "金字塔可编程着色器Tests";
+			productName = "金字塔可编程着色器Tests";
+			productReference = 20834CCC24D580830021FABE /* 金字塔可编程着色器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20834CD624D580840021FABE /* 金字塔可编程着色器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20834CE624D580840021FABE /* Build configuration list for PBXNativeTarget "金字塔可编程着色器UITests" */;
+			buildPhases = (
+				20834CD324D580840021FABE /* Sources */,
+				20834CD424D580840021FABE /* Frameworks */,
+				20834CD524D580840021FABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20834CD924D580840021FABE /* PBXTargetDependency */,
+			);
+			name = "金字塔可编程着色器UITests";
+			productName = "金字塔可编程着色器UITests";
+			productReference = 20834CD724D580840021FABE /* 金字塔可编程着色器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20834CA924D5807E0021FABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "yazhou lv";
+				TargetAttributes = {
+					20834CB024D5807E0021FABE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					20834CCB24D580830021FABE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 20834CB024D5807E0021FABE;
+					};
+					20834CD624D580840021FABE = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 20834CB024D5807E0021FABE;
+					};
+				};
+			};
+			buildConfigurationList = 20834CAC24D5807E0021FABE /* Build configuration list for PBXProject "金字塔可编程着色器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20834CA824D5807E0021FABE;
+			productRefGroup = 20834CB224D5807E0021FABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20834CB024D5807E0021FABE /* 金字塔可编程着色器 */,
+				20834CCB24D580830021FABE /* 金字塔可编程着色器Tests */,
+				20834CD624D580840021FABE /* 金字塔可编程着色器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20834CAF24D5807E0021FABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20834CC424D580830021FABE /* LaunchScreen.storyboard in Resources */,
+				20834CC124D580830021FABE /* Assets.xcassets in Resources */,
+				20834CF824D5936A0021FABE /* shaderF.fsh in Resources */,
+				20834CBF24D5807E0021FABE /* Main.storyboard in Resources */,
+				20834CF624D593580021FABE /* shaderV.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20834CCA24D580830021FABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20834CD524D580840021FABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20834CAD24D5807E0021FABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20834CF024D592A60021FABE /* GLESMath.c in Sources */,
+				20834CBC24D5807E0021FABE /* ViewController.m in Sources */,
+				20834CF424D592B80021FABE /* MyView.m in Sources */,
+				20834CF124D592A60021FABE /* GLESUtils.m in Sources */,
+				20834CB624D5807E0021FABE /* AppDelegate.m in Sources */,
+				20834CC724D580830021FABE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20834CC824D580830021FABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20834CD124D580830021FABE /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20834CD324D580840021FABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20834CDC24D580840021FABE /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20834CCE24D580830021FABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20834CB024D5807E0021FABE /* 金字塔可编程着色器 */;
+			targetProxy = 20834CCD24D580830021FABE /* PBXContainerItemProxy */;
+		};
+		20834CD924D580840021FABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20834CB024D5807E0021FABE /* 金字塔可编程着色器 */;
+			targetProxy = 20834CD824D580840021FABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20834CBD24D5807E0021FABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20834CBE24D5807E0021FABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20834CC224D580830021FABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20834CC324D580830021FABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20834CDE24D580840021FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20834CDF24D580840021FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20834CE124D580840021FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "金字塔可编程着色器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20834CE224D580840021FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "金字塔可编程着色器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20834CE424D580840021FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "金字塔可编程着色器Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/金字塔可编程着色器.app/金字塔可编程着色器";
+			};
+			name = Debug;
+		};
+		20834CE524D580840021FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "金字塔可编程着色器Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/金字塔可编程着色器.app/金字塔可编程着色器";
+			};
+			name = Release;
+		};
+		20834CE724D580840021FABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "金字塔可编程着色器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "金字塔可编程着色器";
+			};
+			name = Debug;
+		};
+		20834CE824D580840021FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "金字塔可编程着色器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.answer.lv.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "金字塔可编程着色器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20834CAC24D5807E0021FABE /* Build configuration list for PBXProject "金字塔可编程着色器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20834CDE24D580840021FABE /* Debug */,
+				20834CDF24D580840021FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20834CE024D580840021FABE /* Build configuration list for PBXNativeTarget "金字塔可编程着色器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20834CE124D580840021FABE /* Debug */,
+				20834CE224D580840021FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20834CE324D580840021FABE /* Build configuration list for PBXNativeTarget "金字塔可编程着色器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20834CE424D580840021FABE /* Debug */,
+				20834CE524D580840021FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20834CE624D580840021FABE /* Build configuration list for PBXNativeTarget "金字塔可编程着色器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20834CE724D580840021FABE /* Debug */,
+				20834CE824D580840021FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20834CA924D5807E0021FABE /* Project object */;
+}
